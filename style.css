@@ -84,15 +84,14 @@ main {
     background-color: black;
     height: 40%;
     transform-origin: center bottom;
-    animation: clockH 86400s steps(60,end) infinite;
+    animation: clockH 43200s steps(60,end) infinite;
 }
 
 .minute-css {
-    transform: rotate(calc(var(--minute-css 0) * 1deg));
     position: absolute;
     width: 2px;
     bottom: 50%;
-    left: calc(50% - 2px);
+    left: calc(50% - 1px);
     background-color: black;
     height: 43%;
     animation: clockM 3600s steps(60, end) infinite;
